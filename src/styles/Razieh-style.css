@@ -1,0 +1,19 @@
+body{
+    background: url(../assets/images/background-razieh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logo{
+    background: url("../assets/images/Razieh-Logo.png") no-repeat;
+    width: 152px;
+    height: 45px;
+    display: block;
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
