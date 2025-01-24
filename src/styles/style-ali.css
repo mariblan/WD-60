@@ -1,0 +1,156 @@
+/****** General Styles ******/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/************************ HEADER ***************************/
+header {
+    background-color: black;
+    padding: 1.2rem 0;
+    color: white;
+}
+
+/****** Navbar Styles ******/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/****** Logo Styles ******/
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/****** Nav Links Styles ******/
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 1.25rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+/************************ ABOUT SECTION ***************************/
+section.about-section {
+    padding: 2.5rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem .8rem;
+    background: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
+
+.profile-card {
+    width: 40%;
+    padding: 1.2rem;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* border-radius: .5rem; */
+    text-align: center;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.2rem 0;
+    text-align: left;
+}
+
+.info-list li {
+    margin: .5rem 0;
+}
+
+.skills h3 {
+    margin-bottom: 1rem;
+}
+
+.skill-bar {
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.skill-bar span {
+    display: block;
+    margin-bottom: .7rem;
+}
+
+.progress {
+    background: #eee;
+    width: 100%;
+    height: .5rem;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+}
+
+.progress-fill.html {
+    width: 85%;
+    background-color: #4285F4;
+}
+
+.progress-fill.css {
+    width: 75%;
+    background-color: #34A853;
+}
+
+.progress-fill.javascript {
+    width: 70%;
+    background-color: #FBBC05;
+}
+
+.about-me {
+    width: 50%;
+}
+
+.about-me h2 {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.about-me h2::after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: .2rem;
+    background: #4285F4;
+    margin-top: .3rem;
+}
