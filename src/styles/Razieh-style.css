@@ -1,0 +1,184 @@
+body,html{
+    height: 100%;
+}
+
+body{
+    background: url(../assets/images/background-razieh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    padding: 10% 5%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo{
+    width: 152px;
+    height: 45px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    margin: 45px 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #1f0322;
+}
+
+nav li a:active,nav li a:hover{
+    color: #789df1;
+}
+
+.cleints{
+    display: block;
+    background: #779df1;
+    padding: 6px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 73%;
+    cursor: pointer;
+    font-size: .9rem;
+    border: 1px solid #1e63fa;
+    box-shadow: 1px 1px 3px #3F51B5;
+    transition: all 0.1s ease-in;
+}
+
+.cleints:hover{
+    background: white;
+    color: #779df1;
+    border: 1px solid #1e63fa;
+    box-shadow: 1px 1px 3px #e6e9fc;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.photo-portfolio{
+    height: auto;
+    max-width: 100%;
+    border-radius: 40px;
+    box-shadow: 0px 0px 6px #779df1;
+    width: 265px;
+    margin: 0 40px;
+}
+
+h1{
+    color: #1f0322;
+    width: 150px;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    width: 80px;
+    text-align: justify;
+    margin-right: 25px;
+}
+
+p{
+    font-size: .6rem;
+}
+
+.address{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.address p{
+    font-size: .8rem;
+}
+
+/* responsive css */
+
+
+@media screen and (max-width:768px){
+
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    header{
+        height: auto
+    }
+    
+    ul{
+        display: flex;
+    }
+    
+    nav li{
+        margin: 30px 10px;
+    }
+    
+    .cleints{
+        width: 40%;
+    }
+    
+    main{
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .photo-portfolio{
+        width: 80%;
+        margin: 30px 10%;
+    }
+    
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .information{
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .text{
+        width: 60%;
+        margin-right: 20px;
+    }
+    
+    p{
+        font-size: .7rem;
+    }
+
+}
